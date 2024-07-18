@@ -75,7 +75,7 @@ function Leaderboard() {
     <DivParent>
       <DivCentered>
         <Header>
-          <h1 className="text-xl font-bold ">Leaderboard</h1>
+          <h1 className="text-xl font-semibold tracking-wider">Leaderboard</h1>
 
           {/* <select className="px-4 py-2 ml-auto text-center bg-transparent rounded-lg appearance-none outline-1 outline outline-white/15">
             <option

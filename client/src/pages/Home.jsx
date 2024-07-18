@@ -47,7 +47,9 @@ function Home() {
         <header className="flex items-center justify-between pb-4 border-b sm:gap-2 border-white/15">
           <div className="flex items-center gap-2">
             <img src={logo} alt="logo" className="w-8" />
-            <h1 className="text-3xl font-bold cursor-default">TapTrap</h1>
+            <h1 className="text-3xl font-semibold cursor-default tracking-wider">
+              TapTrap
+            </h1>
           </div>
 
           <div

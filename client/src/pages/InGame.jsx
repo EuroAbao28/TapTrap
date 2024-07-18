@@ -349,7 +349,7 @@ function InGame() {
       <DivParent>
         <DivCentered>
           <Header>
-            <h1 className="text-xl font-bold capitalize text-nowrap">
+            <h1 className="text-xl font-semibold tracking-wider capitalize text-nowrap">
               {mode} Mode
             </h1>
             {isGameStarted ? (

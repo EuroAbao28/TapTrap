@@ -81,7 +81,7 @@ function Home() {
                     updateTheme("blue");
                     setIsMenuOpen(false);
                   }}
-                  className="px-4 py-1 cursor-pointer text-nowrap hover:bg-white/5 ">
+                  className="px-4 py-1 cursor-pointer text-nowrap hover:bg-white/5 font-light">
                   Mystic Blue
                 </p>
                 <p
@@ -89,7 +89,7 @@ function Home() {
                     updateTheme("red");
                     setIsMenuOpen(false);
                   }}
-                  className="px-4 py-1 cursor-pointer text-nowrap hover:bg-white/5 ">
+                  className="px-4 py-1 cursor-pointer text-nowrap hover:bg-white/5 font-light">
                   Candy Red
                 </p>
                 <p
@@ -97,7 +97,7 @@ function Home() {
                     updateTheme("green");
                     setIsMenuOpen(false);
                   }}
-                  className="px-4 py-1 cursor-pointer text-nowrap hover:bg-white/5 ">
+                  className="px-4 py-1 cursor-pointer text-nowrap hover:bg-white/5 font-light">
                   Apple Green
                 </p>
                 <p
@@ -105,7 +105,7 @@ function Home() {
                     updateTheme("cyan");
                     setIsMenuOpen(false);
                   }}
-                  className="px-4 py-1 cursor-pointer text-nowrap hover:bg-white/5 ">
+                  className="px-4 py-1 cursor-pointer text-nowrap hover:bg-white/5 font-light">
                   Super Cyan
                 </p>
               </div>

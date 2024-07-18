@@ -58,7 +58,7 @@ function Profile() {
     <DivParent>
       <DivCentered>
         <Header>
-          <h1 className="text-xl font-bold ">My Profile</h1>
+          <h1 className="text-xl font-semibold tracking-wider">My Profile</h1>
           {!isEditMode ? (
             <div
               onClick={handleEditMode}

@@ -77,48 +77,6 @@ function Leaderboard() {
         <Header>
           <h1 className="text-xl font-semibold tracking-wider">Leaderboard</h1>
 
-          {/* <select className="px-4 py-2 ml-auto text-center bg-transparent rounded-lg appearance-none outline-1 outline outline-white/15">
-            <option
-              value="easy"
-              className="border-none outline-none bg-customBlue">
-              Easy Mode
-            </option>
-            <option value="medium" className="bg-customBlue">
-              Medium Mode
-            </option>
-            <option value="hard" className="bg-customBlue">
-              Hard Mode
-            </option>
-          </select> */}
-
-          {/* <div className="ml-auto dropdown dropdown-bottom dropdown-end ">
-            <div
-              tabIndex={0}
-              role="button"
-              className="p-2 px-4 capitalize transition-all rounded-lg cursor-pointer outline outline-1 outline-white/15 active:scale-95">
-              {mode} Mode
-            </div>
-            <ul
-              tabIndex={0}
-              className="dropdown-content menu bg-customBlue/80 outline outline-1 outline-white/15 rounded-lg z-[1]">
-              <li
-                onClick={() => setMode("easy")}
-                className="rounded-md hover:bg-white/5">
-                <a className=" text-nowrap">Easy Mode</a>
-              </li>
-              <li
-                onClick={() => setMode("medium")}
-                className="rounded-md hover:bg-white/5">
-                <a className=" text-nowrap">Medium Mode</a>
-              </li>
-              <li
-                onClick={() => setMode("hard")}
-                className="rounded-md hover:bg-white/5">
-                <a className=" text-nowrap">Hard Mode</a>
-              </li>
-            </ul>
-          </div> */}
-
           <div ref={menuRef} className="relative ml-auto">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -137,7 +95,7 @@ function Leaderboard() {
                     setMode("easy");
                     setIsMenuOpen(false);
                   }}
-                  className="px-4 py-1 cursor-pointer text-nowrap hover:bg-white/5 ">
+                  className="px-4 py-1 cursor-pointer text-nowrap hover:bg-white/5 font-light">
                   Easy Mode
                 </p>
                 <p
@@ -145,7 +103,7 @@ function Leaderboard() {
                     setMode("medium");
                     setIsMenuOpen(false);
                   }}
-                  className="px-4 py-1 cursor-pointer text-nowrap hover:bg-white/5 ">
+                  className="px-4 py-1 cursor-pointer text-nowrap hover:bg-white/5 font-light">
                   Medium Mode
                 </p>
                 <p
@@ -153,7 +111,7 @@ function Leaderboard() {
                     setMode("hard");
                     setIsMenuOpen(false);
                   }}
-                  className="px-4 py-1 cursor-pointer text-nowrap hover:bg-white/5 ">
+                  className="px-4 py-1 cursor-pointer text-nowrap hover:bg-white/5 font-light">
                   Hard Mode
                 </p>
               </div>

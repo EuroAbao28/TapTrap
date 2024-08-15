@@ -85,17 +85,13 @@ function Leaderboard() {
             </button>
 
             {isMenuOpen && (
-              <div
-                className={classNames(
-                  "absolute right-0 mt-2 rounded-lg   outline-1 outline outline-white/15",
-                  selectTheme()
-                )}>
+              <div className="absolute right-0 mt-2 rounded-lg outline-1 outline outline-white/15">
                 <p
                   onClick={() => {
                     setMode("easy");
                     setIsMenuOpen(false);
                   }}
-                  className="px-4 py-1 cursor-pointer text-nowrap hover:bg-white/5 font-light">
+                  className="px-4 py-1 font-light cursor-pointer text-nowrap hover:bg-white/5">
                   Easy Mode
                 </p>
                 <p
@@ -103,7 +99,7 @@ function Leaderboard() {
                     setMode("medium");
                     setIsMenuOpen(false);
                   }}
-                  className="px-4 py-1 cursor-pointer text-nowrap hover:bg-white/5 font-light">
+                  className="px-4 py-1 font-light cursor-pointer text-nowrap hover:bg-white/5">
                   Medium Mode
                 </p>
                 <p
@@ -111,7 +107,7 @@ function Leaderboard() {
                     setMode("hard");
                     setIsMenuOpen(false);
                   }}
-                  className="px-4 py-1 cursor-pointer text-nowrap hover:bg-white/5 font-light">
+                  className="px-4 py-1 font-light cursor-pointer text-nowrap hover:bg-white/5">
                   Hard Mode
                 </p>
               </div>

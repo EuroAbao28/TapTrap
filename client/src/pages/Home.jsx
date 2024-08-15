@@ -47,7 +47,7 @@ function Home() {
         <header className="flex items-center justify-between pb-4 border-b sm:gap-2 border-white/15">
           <div className="flex items-center gap-2">
             <img src={logo} alt="logo" className="w-8" />
-            <h1 className="text-3xl font-semibold cursor-default tracking-wider">
+            <h1 className="text-3xl font-semibold tracking-wider cursor-default">
               TapTrap
             </h1>
           </div>
@@ -81,7 +81,7 @@ function Home() {
                     updateTheme("blue");
                     setIsMenuOpen(false);
                   }}
-                  className="px-4 py-1 cursor-pointer text-nowrap hover:bg-white/5 font-light">
+                  className="px-4 py-1 font-light cursor-pointer text-nowrap hover:bg-white/5">
                   Mystic Blue
                 </p>
                 <p
@@ -89,7 +89,7 @@ function Home() {
                     updateTheme("red");
                     setIsMenuOpen(false);
                   }}
-                  className="px-4 py-1 cursor-pointer text-nowrap hover:bg-white/5 font-light">
+                  className="px-4 py-1 font-light cursor-pointer text-nowrap hover:bg-white/5">
                   Candy Red
                 </p>
                 <p
@@ -97,7 +97,7 @@ function Home() {
                     updateTheme("green");
                     setIsMenuOpen(false);
                   }}
-                  className="px-4 py-1 cursor-pointer text-nowrap hover:bg-white/5 font-light">
+                  className="px-4 py-1 font-light cursor-pointer text-nowrap hover:bg-white/5">
                   Apple Green
                 </p>
                 <p
@@ -105,7 +105,7 @@ function Home() {
                     updateTheme("cyan");
                     setIsMenuOpen(false);
                   }}
-                  className="px-4 py-1 cursor-pointer text-nowrap hover:bg-white/5 font-light">
+                  className="px-4 py-1 font-light cursor-pointer text-nowrap hover:bg-white/5">
                   Super Cyan
                 </p>
               </div>

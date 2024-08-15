@@ -1,3 +1,3 @@
-export const host = "http://localhost:5000";
+export const host = "https://taptrap.onrender.com";
 
 export const leaderboardAPI = `${host}/api/leaderboard`;
